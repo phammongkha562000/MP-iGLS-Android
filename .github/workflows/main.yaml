@@ -59,7 +59,7 @@ jobs:
         with:
           distribution: "zulu"
           java-version: "17"
-          cache: "grade"
+          cache: "gradle"
           check-lastest: true
 
       # # Step 5: Chạy kiểm thử
