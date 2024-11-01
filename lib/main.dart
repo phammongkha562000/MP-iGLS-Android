@@ -84,6 +84,7 @@ Future main() async {
             create: (BuildContext context) => CustomerBloc(),
           ),
         ], child: const IGLS())),
-  );
+  );    
   FlutterNativeSplash.remove();   
 }
+   
