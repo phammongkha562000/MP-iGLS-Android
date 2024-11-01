@@ -34,8 +34,10 @@ android {
     ndkVersion "25.1.8937393" /* flutter.ndkVersion */
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        // sourceCompatibility JavaVersion.VERSION_1_8
+        // targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     kotlinOptions {
@@ -56,9 +58,9 @@ android {
         versionName flutterVersionName
         targetSdkVersion 34
         multiDexEnabled true
-        ndk {
-            abiFilters 'armeabi-v7a', 'arm64-v8a'
-        }   
+        // ndk {
+        //     abiFilters 'armeabi-v7a', 'arm64-v8a'
+        // }   
     }
     signingConfigs {
        release {
